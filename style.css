@@ -1,0 +1,170 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url("./images/pattern-background-desktop.svg"); /*ბექგრაუნდის სურათის შემოტანა */
+  background-repeat: no-repeat; /* რამოდნეიმეჯერ რომ არ ჩასვას სურათი */
+  background-color: #e0e8ff;
+}
+
+.mtavari {
+  /* მთავარი div-ი*/
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #d6e1ff;
+}
+
+.charcho {
+  /*  შედის ყველა ელემენტი სურათიდან-ბოლო ტექსტამდე*/
+  width: 450px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column; /* ზემოდან ქვემოთ რომ ჩამოწეროს შემავალი ელემენტები */
+  background-color: #ffffff;
+  border-radius: 8px;
+}
+.sur1 {
+  /* მთავარი სურათი*/
+  border-top-right-radius: 8px;
+  border-top-left-radius: 8px;
+  width: 100%;
+}
+
+.shua {
+  /* ამაში შედის სურათის ქვემოთა ყველა ელემენტი*/
+  padding-left: 48px;
+  padding-right: 48px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+h1 {
+  /* Order Summary-ის ტექსტი*/
+  font-family: "Red Hat Display";
+  font-weight: 900;
+  font-size: 28px;
+  color: #1f2e55;
+  font-style: normal;
+}
+
+.p1- {
+  width: 354px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-left: 20px;
+}
+
+.p1 {
+  /* h1-ის ქვედა ტექსტი*/
+  font-family: "Red Hat Display";
+  font-weight: 500;
+  font-size: 16px;
+  color: #717fa6;
+  font-style: normal;
+}
+.noti {
+  /* ამ დივში  შედის ნოტი და მის გასწვრივ ტექსტები*/
+  background-color: #f7f9ff;
+  width: 354px;
+  border-radius: 11px;
+  margin-bottom: 32px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  justify-content: space-between;
+  padding-left: 24px;
+  padding-right: 24px;
+}
+
+.noti-text {
+  /* ამ დივში შედის ნოტის სურათი და ორი ტექსტი change-მდე*/
+  display: flex;
+  flex-direction: column;
+}
+
+.not--text {
+  /*ამ დივში შედის ნოტის შემდეგ  ორი ტექსტი change-მდე*/
+  display: flex;
+  justify-content: space-between;
+  width: 153px;
+}
+.span-dolar {
+  /* დოლარის ტექსტი და ნიშნული*/
+  font-family: "Red Hat Display";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 21px;
+  color: #717fa6;
+}
+
+.annual-plan {
+  /* ტექსტი*/
+  font-family: "Red Hat Display";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 16px;
+  line-height: 21px;
+  color: #1f2e55;
+}
+
+.change {
+  /*  სიტყვა change*/
+  color: #382ae1;
+  font-family: "Red Hat Display";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 19px;
+  text-decoration-line: underline;
+}
+
+.change:hover {
+  /*  სიტყვა change-ზე კურსორის მიტანით თითის გამოჩენა*/
+  cursor: pointer;
+}
+
+.pay {
+  /*  Proceed to Payment-ის დივი*/
+  background-color: #382ae1;
+  width: 354px;
+  border-radius: 11px;
+  display: flex;
+  justify-content: center;
+}
+.pay:hover {
+  /*Proceed to Payment-ის ჰოვერი*/
+  cursor: pointer;
+}
+.p-pay {
+  /*Proceed to Payment-ის ტექსტი*/
+  font-family: "Red Hat Display";
+  color: #ffffff;
+  width: 900;
+  font-size: 15px;
+  font-style: normal;
+}
+
+.cancel {
+  /* cancel-ის დივი*/
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.p-cancel {
+  /*  სიტყვა  cancel*/
+  font-family: "Red Hat Display";
+  color: #1f2e55;
+  width: 900;
+  font-size: 15px;
+  font-style: normal;
+}
+.p-cancel:hover {
+  /*  სიტყვა cancel-ის ჰოვერი*/
+  cursor: pointer;
+}
