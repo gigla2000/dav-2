@@ -51,6 +51,7 @@ h1 {
   font-size: 28px;
   color: #1f2e55;
   font-style: normal;
+  margin-top: 45px;
 }
 
 .p1 {
@@ -62,6 +63,7 @@ h1 {
   font-style: normal;
   width: 354px;
   text-align: center;
+  margin-top: 17px;
 }
 .noti {
   /* ამ დივში  შედის ნოტი და მის გასწვრივ ტექსტები*/
@@ -73,8 +75,7 @@ h1 {
   justify-content: center;
   align-items: center;
   justify-content: space-between;
-  padding-left: 24px;
-  padding-right: 24px;
+  margin-top: 20px;
 }
 
 .noti-text {
