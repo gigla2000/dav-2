@@ -4,7 +4,9 @@ body {
   align-items: center;
   background-image: url("./images/pattern-background-desktop.svg"); /*ბექგრაუნდის სურათის შემოტანა */
   background-repeat: no-repeat; /* რამოდნეიმეჯერ რომ არ ჩასვას სურათი */
+  background-size: contain; /* მთლიან ეკრანს შეავსებს სურათი*/
   background-color: #e0e8ff;
+  min-height: 100vh; /* ბოდიმ მთლიანი ეკრანი რომ გამოიყენოს*/
 }
 
 .mtavari {
@@ -51,14 +53,6 @@ h1 {
   font-style: normal;
 }
 
-.p1- {
-  width: 354px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  padding-left: 20px;
-}
-
 .p1 {
   /* h1-ის ქვედა ტექსტი*/
   font-family: "Red Hat Display";
@@ -66,6 +60,8 @@ h1 {
   font-size: 16px;
   color: #717fa6;
   font-style: normal;
+  width: 354px;
+  text-align: center;
 }
 .noti {
   /* ამ დივში  შედის ნოტი და მის გასწვრივ ტექსტები*/
@@ -91,7 +87,13 @@ h1 {
   /*ამ დივში შედის ნოტის შემდეგ  ორი ტექსტი change-მდე*/
   display: flex;
   justify-content: space-between;
-  width: 153px;
+  gap: 20px; /* დააშორებს ნოტს და სურათს ერთმანეთს*/
+}
+.not {
+  /* ნოტის სურათი*/
+  width: 48px;
+  height: 48px;
+  align-self: center;
 }
 .span-dolar {
   /* დოლარის ტექსტი და ნიშნული*/
@@ -127,7 +129,7 @@ h1 {
 .change:hover {
   /*  სიტყვა change-ზე კურსორის მიტანით თითის გამოჩენა*/
   cursor: pointer;
-  color: #766CF1;
+  color: #766cf1;
 }
 
 .pay {
@@ -141,7 +143,7 @@ h1 {
 .pay:hover {
   /*Proceed to Payment-ის ჰოვერი*/
   cursor: pointer;
-  background-color:#766CF1;
+  background-color: #766cf1;
 }
 .p-pay {
   /*Proceed to Payment-ის ტექსტი*/
@@ -161,7 +163,7 @@ h1 {
 .p-cancel {
   /*  სიტყვა  cancel*/
   font-family: "Red Hat Display";
-  color: #717FA6;
+  color: #717fa6;
   width: 900;
   font-size: 15px;
   font-style: normal;
@@ -169,5 +171,5 @@ h1 {
 .p-cancel:hover {
   /*  სიტყვა cancel-ის ჰოვერი*/
   cursor: pointer;
-  color:#1F2E55;
+  color: #1f2e55;
 }
