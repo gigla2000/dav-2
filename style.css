@@ -127,6 +127,7 @@ h1 {
 .change:hover {
   /*  სიტყვა change-ზე კურსორის მიტანით თითის გამოჩენა*/
   cursor: pointer;
+  color: #766CF1;
 }
 
 .pay {
@@ -140,6 +141,7 @@ h1 {
 .pay:hover {
   /*Proceed to Payment-ის ჰოვერი*/
   cursor: pointer;
+  background-color:#766CF1;
 }
 .p-pay {
   /*Proceed to Payment-ის ტექსტი*/
@@ -167,4 +169,5 @@ h1 {
 .p-cancel:hover {
   /*  სიტყვა cancel-ის ჰოვერი*/
   cursor: pointer;
+  color:#1F2E55;
 }
